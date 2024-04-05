@@ -1,0 +1,52 @@
+
+# Term: Client
+@Client#gender = MALE
+
+# Term: Nom
+@Nom#gender = MALE
+
+# Term: Panier
+@Panier#gender = MALE
+
+# Term: Prix
+@Prix#gender = MALE
+
+# Term: Produit
+@Produit#gender = MALE
+
+# Term: Statut
+@Statut#gender = MALE
+
+# com.ibm.ads.samples.french.panier_de_e_commerce.donnees.Client1
+com.ibm.ads.samples.french.panier_de_e_commerce.donnees.Client1#concept.label = Client
+com.ibm.ads.samples.french.panier_de_e_commerce.donnees.Client1.Client1(java.lang.String,com.ibm.ads.samples.french.panier_de_e_commerce.donnees.Statut1)#phrase.navigation = un nouveau {Client} tel que {0, Nom} {1, Statut}
+com.ibm.ads.samples.french.panier_de_e_commerce.donnees.Client1.nom#phrase.action = assigner le Nom {this,PARTITIVE_ARTICLE} à {Nom}
+com.ibm.ads.samples.french.panier_de_e_commerce.donnees.Client1.nom#phrase.navigation = {Nom} {this,PARTITIVE_ARTICLE}
+com.ibm.ads.samples.french.panier_de_e_commerce.donnees.Client1.statut1#phrase.action = assigner le Statut {this,PARTITIVE_ARTICLE} à {Statut}
+com.ibm.ads.samples.french.panier_de_e_commerce.donnees.Client1.statut1#phrase.clearer = effacer le Statut {this,PARTITIVE_ARTICLE}
+com.ibm.ads.samples.french.panier_de_e_commerce.donnees.Client1.statut1#phrase.navigation = {Statut} {this,PARTITIVE_ARTICLE}
+
+# com.ibm.ads.samples.french.panier_de_e_commerce.donnees.Panier1
+com.ibm.ads.samples.french.panier_de_e_commerce.donnees.Panier1#concept.label = Panier
+com.ibm.ads.samples.french.panier_de_e_commerce.donnees.Panier1.Panier1(java.util.List)#phrase.navigation = un nouveau {Panier} tel que {0, Produit}
+com.ibm.ads.samples.french.panier_de_e_commerce.donnees.Panier1.addTo_produits(com.ibm.ads.samples.french.panier_de_e_commerce.donnees.Produit1)#phrase.action = ajouter {0} à la liste des Produits {this,PARTITIVE_ARTICLE}
+com.ibm.ads.samples.french.panier_de_e_commerce.donnees.Panier1.clear_produits()#phrase.action = effacer les Produits {this,PARTITIVE_ARTICLE}
+com.ibm.ads.samples.french.panier_de_e_commerce.donnees.Panier1.produits#phrase.action = assigner les Produits {this,PARTITIVE_ARTICLE} à {Produit}
+com.ibm.ads.samples.french.panier_de_e_commerce.donnees.Panier1.produits#phrase.navigation = {Produit} {this,PARTITIVE_ARTICLE}
+com.ibm.ads.samples.french.panier_de_e_commerce.donnees.Panier1.removeFrom_produits(com.ibm.ads.samples.french.panier_de_e_commerce.donnees.Produit1)#phrase.action = retirer {0} de la liste des Produits {this,PARTITIVE_ARTICLE}
+
+# com.ibm.ads.samples.french.panier_de_e_commerce.donnees.Produit1
+com.ibm.ads.samples.french.panier_de_e_commerce.donnees.Produit1#concept.label = Produit
+com.ibm.ads.samples.french.panier_de_e_commerce.donnees.Produit1.Produit1(java.lang.String,double)#phrase.navigation = un nouveau {Produit} tel que {0, Nom} {1, Prix}
+com.ibm.ads.samples.french.panier_de_e_commerce.donnees.Produit1.nom1#phrase.action = assigner le Nom {this,PARTITIVE_ARTICLE} à {Nom}
+com.ibm.ads.samples.french.panier_de_e_commerce.donnees.Produit1.nom1#phrase.navigation = {Nom} {this,PARTITIVE_ARTICLE}
+com.ibm.ads.samples.french.panier_de_e_commerce.donnees.Produit1.prix1#phrase.action = assigner le Prix {this,PARTITIVE_ARTICLE} à {Prix}
+com.ibm.ads.samples.french.panier_de_e_commerce.donnees.Produit1.prix1#phrase.addition_setter = ajouter {Prix} au Prix {this,PARTITIVE_ARTICLE}
+com.ibm.ads.samples.french.panier_de_e_commerce.donnees.Produit1.prix1#phrase.navigation = {Prix} {this,PARTITIVE_ARTICLE}
+com.ibm.ads.samples.french.panier_de_e_commerce.donnees.Produit1.prix1#phrase.subtraction_setter = retirer {Prix} du Prix {this,PARTITIVE_ARTICLE}
+
+# com.ibm.ads.samples.french.panier_de_e_commerce.donnees.Statut1
+com.ibm.ads.samples.french.panier_de_e_commerce.donnees.Statut1#concept.label = Statut
+com.ibm.ads.samples.french.panier_de_e_commerce.donnees.Statut1.argent#instance.label = Argent
+com.ibm.ads.samples.french.panier_de_e_commerce.donnees.Statut1.bronze#instance.label = Bronze
+com.ibm.ads.samples.french.panier_de_e_commerce.donnees.Statut1.or#instance.label = Or

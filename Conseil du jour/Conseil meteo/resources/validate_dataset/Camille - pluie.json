@@ -1,0 +1,11 @@
+{
+  "operationId" : "0183b0e3-7f65-4c73-a2b9-45c29adae4f8",
+  "body" : {
+    "nom" : "Camille",
+    "prévisionMétéo" : {
+      "AlerteTempête" : false,
+      "PrévisionDesPrécipitations" : 90,
+      "TempératureRessentie" : "Agréable"
+    }
+  }
+}

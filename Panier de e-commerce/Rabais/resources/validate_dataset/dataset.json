@@ -1,0 +1,9 @@
+{
+  "operationId" : "23d1b233-df86-48ba-bd03-9f1ba9d6ea32",
+  "body" : {
+    "client" : {
+      "Nom" : "Pierre",
+      "Statut" : "Argent"
+    }
+  }
+}
