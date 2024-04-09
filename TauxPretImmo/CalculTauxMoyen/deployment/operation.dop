@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="operation" targetRuleProjectName="CalculTauxMoyen">
+  <name>CalculTauxMoyen</name>
+  <uuid>12339b14-2da7-4994-ab4e-0311c7b8a273</uuid>
+  <decisionModel href="../rules/decisionModel.dmo#cf86aa85-20e4-4731-a08d-b5c737603091"/>
+  <targetRuleProject href="../../CalculTauxMoyen#212587a7-e993-48e4-863a-42e816d252e6"/>
+  <tags key="operationDescription">
+    <value><![CDATA[""]]></value>
+  </tags>
+  <tags key="operationName">
+    <value><![CDATA["CalculTauxMoyen"]]></value>
+  </tags>
+  <tags key="exposedAtRuntime">
+    <value><![CDATA[true]]></value>
+  </tags>
+</com.ibm.rules.studio.model.decisionservice:Operation>
