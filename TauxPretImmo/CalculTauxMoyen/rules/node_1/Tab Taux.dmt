@@ -188,7 +188,7 @@
                         <Condition>
                             <Expression>
                                 <Text><![CDATA[<un nombre> est plus grand que <un nombre>]]></Text>
-                                <Param><![CDATA[9]]></Param>
+                                <Param><![CDATA[0,9]]></Param>
                             </Expression>
                             <ActionSet>
                                 <Action DefId="A0">
@@ -256,7 +256,7 @@
                         <Condition>
                             <Expression>
                                 <Text><![CDATA[<un nombre> est plus grand que <un nombre>]]></Text>
-                                <Param><![CDATA[9]]></Param>
+                                <Param><![CDATA[0,9]]></Param>
                             </Expression>
                             <ActionSet>
                                 <Action DefId="A0">
@@ -340,7 +340,7 @@
                         <Condition>
                             <Expression>
                                 <Text><![CDATA[<un nombre> est plus grand que <un nombre>]]></Text>
-                                <Param><![CDATA[9]]></Param>
+                                <Param><![CDATA[0,9]]></Param>
                             </Expression>
                             <ActionSet>
                                 <Action DefId="A0">
@@ -424,7 +424,7 @@
                         <Condition>
                             <Expression>
                                 <Text><![CDATA[<un nombre> est plus grand que <un nombre>]]></Text>
-                                <Param><![CDATA[9]]></Param>
+                                <Param><![CDATA[0,9]]></Param>
                             </Expression>
                             <ActionSet>
                                 <Action DefId="A0">
@@ -508,7 +508,7 @@
                         <Condition>
                             <Expression>
                                 <Text><![CDATA[<un nombre> est plus grand que <un nombre>]]></Text>
-                                <Param><![CDATA[9]]></Param>
+                                <Param><![CDATA[0,9]]></Param>
                             </Expression>
                             <ActionSet>
                                 <Action DefId="A0">
